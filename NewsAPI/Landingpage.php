@@ -79,7 +79,7 @@
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Read Now</a>
+                        <a class="nav-link" href="http://localhost/Inclick News/NewsAPI/news1.php">Read Now</a>
                     </li>
                 </ul>
             </div>
@@ -227,91 +227,6 @@
             <!-- /END THE FEATURETTES -->
 
         </div>
-        <!-- /.container -->
-
-
-
-        <!--    ....-->
-
-        <footer>
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <section class="sec-1">
-                <section class="about">
-                    <h2 id="thnx">Thank You For visiting us!</h2>
-                    <p>We understand you don’t have time to go through newspaper everyday.
-
-                    </p>
-                </section>
-                <section class="link1">
-                    <h2>categories</h2>
-                    <ul>
-                        <li><a href="#">Entertainment</a></li>
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Science</a></li>
-                        <li>
-                            <a href="#"></a>
-                        </li>
-                        <li><a href="#">Hybrid Apps</a></li>
-                    </ul>
-                </section>
-                <section class="link2">
-                    <h2>quick links</h2>
-                    <ul>
-                        <li><a href="aboutusnews.html">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Contribute</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Disclaimer</a></li>
-                    </ul>
-                </section>
-                <section class="link3">
-                    <h2>contact us</h2>
-                    <ul>
-                        <li><i class="fa fa-home"></i><span>GLA University, Uttar Pradesh, India</span></li>
-
-                        <li><i class="fa fa-envelope"></i><span>inclicknews@gmail.com</span></li>
-                        <li><i class="fa fa-phone-square"></i><span>Mobile: 9*********</span></li>
-                        <li><i class="fa fa-facebook-official"></i><a href="#">inclicknews</a></li>
-                    </ul>
-                </section>
-            </section>
-            <hr width="100%">
-            <section class="sec-3">
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                </ul>
-            </section>
-            <div class="col-md-7">
-                <h4><u>Registered Office Address</u></h4>
-
-                <address>
-                      GLA University<br>
-                      AB-1, Mathura <br>
-                      Uttar Pradesh - 281001, India<br>
-                 </address>
-
-            </div>
-
-            <section class="sec-4">
-                <p>&copy;Copyright &#169; 2020 All Rights Reserved by Inclick
-                </p>
-            </section>
-        </footer>
-
-        <!-- FOOTER -->
-
     </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
-    </script>
-    <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
-</body>
-
-</html>
+    <?php 
+include('footer_structure.php')?>
