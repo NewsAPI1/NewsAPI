@@ -19,8 +19,9 @@
         <section class="link2">
             <h2>quick links</h2>
             <ul>
-                <li><a href="aboutusnews.html">About Us</a></li>
-                <li><a href="aboutusnews.html">Articles</a></li>
+                <li><a href="aboutusnews.php">About Us</a></li>
+                <li><a href="CoronaNews.php">Covid Tracker</a></li>
+                <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
                 <li><a href="Landingpage.html">Landing Page</a></li>
 
             </ul>

@@ -45,7 +45,7 @@
 
 
     <!--upto here-->
-
+    <link href="Landingpage.css" rel="stylesheet">
 
 
     <style>
@@ -65,7 +65,7 @@
         }
     </style>
     <!-- Custom styles for this template -->
-    <link href="Landingpage.css" rel="stylesheet">
+    
 </head>
 
 <body>

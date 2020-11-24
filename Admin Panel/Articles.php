@@ -10,6 +10,29 @@
 <link rel="stylesheet" href="header.css">
 <link rel="stylesheet" href="footer.css">
 <style>
+        html {
+        scroll-behavior: smooth;
+        transition: all 5s ease-in-out;
+    }
+    
+    #top {
+        outline: none;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        display: none;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        margin: 0 3em 3em 0;
+        border-radius: 50%;
+        font-size: 1.1rem;
+        height: 2.7rem;
+        width: 2.7rem;
+        background-color: #dfe6e9;
+        border: none;
+        box-shadow: 2px 7px 4px 0 rgba(0, 0, 0, 0.2);
+    }
     @media(min-width:993px){
         .w3-content{
             margin-left:300px;
@@ -100,6 +123,7 @@
 		<h1 style="font-weight: bold;text-align: center;margin-top: 5rem;"><img src="website.svg" class="icon">InClick</h1>        
         <div style="border-top:0.2rem solid gray;margin:1rem 7rem;border-radius:1rem;box-shadow:0 3px 5px 0 rgba(0,0,0,0.2);"></div>
     </div>
+    <button onclick="topFunction()" id="top" title="Go to top"><i class="fa fa-angle-up"></i></button>
     <div class="w3-content" style="max-width:1400px">
         <?php
             include('connection.php');
@@ -204,6 +228,22 @@
             </p>
         </section>
     </footer>
-
+<script>
+        var mybutton = document.getElementById("top");
+    window.onscroll = function() {
+        scrollFunction()
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 </body>
 </html>

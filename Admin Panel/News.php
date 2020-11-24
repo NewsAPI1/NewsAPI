@@ -8,9 +8,9 @@ $page='news';
 include('include_Structure.php');
 ?>
 
-<div style="width:100%;margin:1rem auto;">
+<div style="width:40%;margin:1rem auto;">
 
-    <table style="width:40%;margin:1rem 15rem"class="table table-bordered">
+    <table style="width:30%;margin:1rem auto"class="table table-bordered">
   
       <tr><th colspan="8"><a href="AddNews.php" style="color:#227093margin-bottom:1%"><i style="padding:0.4rem"class="fa fa-plus"></i>Add News</th></a></tr> 
       <tr>

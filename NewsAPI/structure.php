@@ -191,7 +191,8 @@
             <li><a href="sports.php">Sports</a></li>
             <li><a href="technology.php">Technology</a></li>
             <li><a href="search.php">Search</a></li>
-            <li><a href="../Admin/Articles.php">Articles</a></li>
+            <li><a href="CoronaNews.php">Coivd</a></li>
+            <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
             <div class="sidebar">
                 <ul class="menu">
                     <li>
@@ -219,7 +220,7 @@
                         <a href="search.php"><img src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>Search</a>
                     </li>
                     <li>
-                        <a href="../Admin/Articles.php.php"><img src="https://img.icons8.com/color/48/000000/google-blog-search.png"/>Articles</a>
+                        <a href="../Admin%20Panel/Articles.php?page=1"><img src="https://img.icons8.com/color/48/000000/google-blog-search.png"/>Articles</a>
                     </li>
                 </ul>
             </div>
@@ -233,7 +234,7 @@
         <div class="icon-bar">
             <button class="open-button" onclick="openForm()"><i class="fa fa-comments-o" aria-hidden="true"></i></button>
             <div class="chat-popup" style="display: none" id="myForm">
-                <form class="form-container" action="../Admin Panel/Add_Feedback.php" method="post">
+                <form class="form-container" action="../Admin %20/Add_Feedback.php" method="post">
                     <label><b>Feedback</b></label>
                     <input name="user_email" placeholder="Enter Your Email Address" class="email">
                     <textarea placeholder="Type message.." name="message" required></textarea>

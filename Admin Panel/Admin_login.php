@@ -28,6 +28,7 @@
     font-family: 'Gayathri', sans-serif;
     font-family: 'Kumbh Sans', sans-serif;
     outline: none;
+    background-color:whitesmoke;
     
     
 }
