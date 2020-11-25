@@ -44,10 +44,11 @@
             margin-left:-300px;width:1380px
         }
     }
-    @media(max-width:630px){
-        .menu1 .head{
+    @media(max-width:670px){
+        header .head{
             display:none
         }
+        
         
     }
     body,h1,h2,h3,h4,h5 {
@@ -91,38 +92,72 @@
 }
 </style>
 <body class="w3-light-grey">
-<header id="google_translate_element">    
-    <ul class="menu1">
-        <input type="checkbox"  id="chk">
-        <label for="chk" class="show-btn">
-            <i style="color:white"class="fa fa-bars"></i>
-        </label>
-        <label for="chk" class="hide-btn">
-            <i style="color:white"class="fa fa-times"></i>
-        </label>
-        <li class="head"><a href="../NewsAPI/news1.php">Home</a></li>
-        <li class="head"><a href="../NewsAPI/business.php">Business</a></li>
-        <li class="head"><a href="../NewsAPI/entertainment.php">Entertainment</a></li>
-        <li class="head"><a href="../NewsAPI/health.php">Health</a></li>
-        <li class="head"><a href="../NewsAPI/science.php">Science</a></li>
-        <li class="head"><a href="../NewsAPI/sports.php">Sports</a></li>
-        <li class="head"><a href="../NewsAPI/technology.php">Technology</a></li>
-        <div class="sidebar">
-            <ul class="menu">
-                <li><a href="../NewsAPI/news1.php"><img src="https://img.icons8.com/color/48/000000/top-menu.png"/>Home</a></li>
-                <li><a href="../NewsAPI/business.php"><img src="https://img.icons8.com/color/48/000000/refund.png"/>Business</a></li>
-                <li><a href="../NewsAPI/entertainment.php"><img src="https://img.icons8.com/color/48/000000/movie-projector.png"/>Entertainment</a></li>
-                <li><a href="../NewsAPI/health.php"><img class="health"src="https://img.icons8.com/plasticine/100/000000/hospital-room.png"/>Health</a></li>
-                <li><a href="../NewsAPI/science.php"><img src="https://img.icons8.com/color/48/000000/physics.png"/>Science</a></li>                <li><a href="sports.php"><img src="https://img.icons8.com/color/48/000000/tennis.png"/>Sports</a></li>
-                <li><a href="../NewsAPI/technology.php"><img src="https://img.icons8.com/color/48/000000/development-skill.png"/>Technology</a></li>
-            </ul>
-        </div>
-    </ul>
-    </header>
-	<div id="container" id="google_translate_element">
+<div id="container" id="google_translate_element">
 		<h1 style="font-weight: bold;text-align: center;margin-top: 5rem;"><img src="website.svg" class="icon">InClick</h1>        
         <div style="border-top:0.2rem solid gray;margin:1rem 7rem;border-radius:1rem;box-shadow:0 3px 5px 0 rgba(0,0,0,0.2);"></div>
     </div>
+<header id="google_translate_element">
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement('google_translate_element');
+            }
+        </script>
+
+        <ul class="menu1">
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-btn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <label for="chk" class="hide-btn">
+                <i class="fa fa-times"></i>
+            </label>
+            
+            <li class="head"><a href="news1.php">Home</a></li>
+            <li class="head"><a href="business.php">Business</a></li>
+            <li class="head"><a href="entertainment.php">Entertainment</a></li>
+            <li class="head"><a href="health.php">Health</a></li>
+            <li class="head"><a href="science.php">Science</a></li>
+            <li class="head"><a href="sports.php">Sports</a></li>
+            <li class="head"><a href="technology.php">Technology</a></li>
+            <li class="head"><a href="search.php">Search</a></li>
+            <li class="head"><a href="CoronaNews.php">Coivd</a></li>
+            <li class="head"><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
+            
+            <div class="sidebar">
+                <ul class="menu">
+                
+                    <li>
+                        <a href="news1.php"><img src="https://img.icons8.com/color/48/000000/top-menu.png" />Home</a>
+                    </li>
+                    <li>
+                        <a href="business.php"><img src="https://img.icons8.com/color/48/000000/refund.png" />Business</a>
+                    </li>
+                    <li>
+                        <a href="entertainment.php"><img src="https://img.icons8.com/color/48/000000/movie-projector.png" />Entertainment</a>
+                    </li>
+                    <li>
+                        <a href="health.php"><img class="health" src="https://img.icons8.com/plasticine/100/000000/hospital-room.png" />Health</a>
+                    </li>
+                    <li>
+                        <a href="science.php"><img src="https://img.icons8.com/color/48/000000/physics.png" />Science</a>
+                    </li>
+                    <li>
+                        <a href="sports.php"><img src="https://img.icons8.com/color/48/000000/tennis.png" />Sports</a>
+                    </li>
+                    <li>
+                        <a href="technology.php"><img src="https://img.icons8.com/color/48/000000/development-skill.png" />Technology</a>
+                    </li>
+                    <li>
+                        <a href="search.php"><img src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>Search</a>
+                    </li>
+                    <li>
+                        <a href="../Admin%20Panel/Articles.php?page=1"><img src="https://img.icons8.com/color/48/000000/google-blog-search.png"/>Articles</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </ul>
+    </header>
     <button onclick="topFunction()" id="top" title="Go to top"><i class="fa fa-angle-up"></i></button>
     <div class="w3-content" style="max-width:1400px">
         <?php
@@ -169,67 +204,77 @@
     <?php }?>
     </div>   
         </div>
-        <footer id="google_translate_element" style="">
-        <section class="sec-1">
-            <section class="about">
-                <h2>About</h2>
-                <p>We understand you don’t have time to go through newspaper everyday.
-                    
-                </p>
-            </section>
-            <section class="link1">
-                <h2>categories</h2>
-                <ul>
-                    <li><a href="#">Entertainment</a></li>
-                    <li><a href="#">Sports</a></li>
-                    <li><a href="#">Technology</a></li>
-                    <li><a href="#">Science</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#">Hybrid Apps</a></li>
-                </ul>
-            </section>
-            <section class="link2">
-                <h2>quick links</h2>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Contribute</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                </ul>
-            </section>
-            <section class="link3">
-                <h2>contact us</h2>
-                <ul>
+        <footer id="google_translate_element">
+    <section class="sec-1">
+        <section class="about">
+            <h2>About</h2>
+            <p>We understand you don’t have time to go through newspaper everyday.
+            </p>
+        </section>
+        <section class="link1">
+            <h2>categories</h2>
+            <ul>
+                <li><a href="business.php">Business</a></li>
+                <li><a href="entertainment.php">Entertainment</a></li>
+                <li><a href="health.php">Health</a></li>
+                <li><a href="science.php">Science</a></li>
+                <li><a href="sports.php">Sports</a></li>
+                <li><a href="technology.php">Technology</a></li>
+            </ul>
+        </section>
+        <section class="link2">
+            <h2>quick links</h2>
+            <ul>
+                <li><a href="aboutusnews.php">About Us</a></li>
+                <li><a href="CoronaNews.php">Covid Tracker</a></li>
+                <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
+                <li><a href="Landingpage.html">Landing Page</a></li>
+
+            </ul>
+        </section>
+        <section class="link3">
+            <h2>contact us</h2>
+            <ul>
                 <li><i class="fa fa-home"></i><span>GLA University, Uttar Pradesh, India</span></li>
                 <li><a href="https://icons8.com/icon/1iF9PyJ2Thzo/home">Icon by Icons8</a></li>
                 <li>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
-                    <li><i class="fa fa-envelope"></i><span>inclicknews@gmail.com</span></li>
-                    <li><i class="fa fa-phone-square"></i><span>Mobile: 9*********</span></li>
-                    <li><i class="fa fa-facebook-official"></i><a href="#">inclicknews</a></li>
-                </ul>
-            </section>
-        </section>
-        
-        <section class="sec-3">
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><i class="fa fa-envelope"></i><span>inclicknews@gmail.com</span></li>
+                <li><i class="fa fa-phone-square"></i><span>Mobile: 9*********</span></li>
             </ul>
         </section>
-        
-        <section class="sec-4">
-            <p>Copyright &#169; 2020 All Rights Reserved by
-				Inclick
-            </p>
-        </section>
-    </footer>
+    </section>
+    
+    <section class="sec-3">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/NewsAPI1/NewsAPI"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </section>
+    <section class="sec-4">
+        <p>Copyright &#169; 2020 All Rights Reserved by Inclick
+        </p>
+    </section>
+</footer>
+</div>
 <script>
-        var mybutton = document.getElementById("top");
+    var myVar;
+    function myFunction() {
+        myVar = setTimeout(showPage, 000);
+    }
+    function showPage() {
+        document.getElementById("loader").style.display = "none";
+        document.getElementById("container").style.display = "block";
+    }
+    function openForm() {
+        document.getElementById("myForm").style.display = "block";
+    }
+    function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+    }
+    var mybutton = document.getElementById("top");
     window.onscroll = function() {
         scrollFunction()
     };

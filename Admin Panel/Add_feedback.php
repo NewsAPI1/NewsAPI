@@ -13,6 +13,7 @@
           echo "<script >window.location='http://localhost/Inclick News/NewsAPI/news1.php' ;</script>";
      }else{
           echo "<script> alert('Please try Again')</script>";
+          echo "<script >window.location='http://localhost/Inclick News/NewsAPI/news1.php' ;</script>";
      }
  }
  

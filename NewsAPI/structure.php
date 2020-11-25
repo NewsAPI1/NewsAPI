@@ -234,7 +234,7 @@
         <div class="icon-bar">
             <button class="open-button" onclick="openForm()"><i class="fa fa-comments-o" aria-hidden="true"></i></button>
             <div class="chat-popup" style="display: none" id="myForm">
-                <form class="form-container" action="../Admin %20/Add_Feedback.php" method="post">
+                <form class="form-container" action="../Admin%20Panel/Add_Feedback.php" method="post">
                     <label><b>Feedback</b></label>
                     <input name="user_email" placeholder="Enter Your Email Address" class="email">
                     <textarea placeholder="Type message.." name="message" required></textarea>
