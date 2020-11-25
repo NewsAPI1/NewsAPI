@@ -22,7 +22,7 @@
                 <li><a href="aboutusnews.php">About Us</a></li>
                 <li><a href="CoronaNews.php">Covid Tracker</a></li>
                 <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
-                <li><a href="Landingpage.html">Landing Page</a></li>
+                <li><a href="Landingpage.php">Landing Page</a></li>
 
             </ul>
         </section>

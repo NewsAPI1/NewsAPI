@@ -19,7 +19,7 @@
         outline: none;
         position: fixed;
         bottom: 0;
-        right: 0;
+        right: 0;../NewsAPI/
         display: none;
         cursor: pointer;
         align-items: center;
@@ -112,43 +112,43 @@
                 <i class="fa fa-times"></i>
             </label>
             
-            <li class="head"><a href="news1.php">Home</a></li>
-            <li class="head"><a href="business.php">Business</a></li>
-            <li class="head"><a href="entertainment.php">Entertainment</a></li>
-            <li class="head"><a href="health.php">Health</a></li>
-            <li class="head"><a href="science.php">Science</a></li>
-            <li class="head"><a href="sports.php">Sports</a></li>
-            <li class="head"><a href="technology.php">Technology</a></li>
-            <li class="head"><a href="search.php">Search</a></li>
-            <li class="head"><a href="CoronaNews.php">Coivd</a></li>
+            <li class="head"><a href="../NewsAPI/news1.php">Home</a></li>
+            <li class="head"><a href="../NewsAPI/business.php">Business</a></li>
+            <li class="head"><a href="../NewsAPI/entertainment.php">Entertainment</a></li>
+            <li class="head"><a href="../NewsAPI/health.php">Health</a></li>
+            <li class="head"><a href="../NewsAPI/science.php">Science</a></li>
+            <li class="head"><a href="../NewsAPI/sports.php">Sports</a></li>
+            <li class="head"><a href="../NewsAPI/technology.php">Technology</a></li>
+            <li class="head"><a href="../NewsAPI/search.php">Search</a></li>
+            <li class="head"><a href="../NewsAPI/CoronaNews.php">Coivd</a></li>
             <li class="head"><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
             
             <div class="sidebar">
                 <ul class="menu">
                 
                     <li>
-                        <a href="news1.php"><img src="https://img.icons8.com/color/48/000000/top-menu.png" />Home</a>
+                        <a href="../NewsAPI/news1.php"><img src="https://img.icons8.com/color/48/000000/top-menu.png" />Home</a>
                     </li>
                     <li>
-                        <a href="business.php"><img src="https://img.icons8.com/color/48/000000/refund.png" />Business</a>
+                        <a href="../NewsAPI/business.php"><img src="https://img.icons8.com/color/48/000000/refund.png" />Business</a>
                     </li>
                     <li>
-                        <a href="entertainment.php"><img src="https://img.icons8.com/color/48/000000/movie-projector.png" />Entertainment</a>
+                        <a href="../NewsAPI/entertainment.php"><img src="https://img.icons8.com/color/48/000000/movie-projector.png" />Entertainment</a>
                     </li>
                     <li>
-                        <a href="health.php"><img class="health" src="https://img.icons8.com/plasticine/100/000000/hospital-room.png" />Health</a>
+                        <a href="../NewsAPI/health.php"><img class="health" src="https://img.icons8.com/plasticine/100/000000/hospital-room.png" />Health</a>
                     </li>
                     <li>
-                        <a href="science.php"><img src="https://img.icons8.com/color/48/000000/physics.png" />Science</a>
+                        <a href="../NewsAPI/science.php"><img src="https://img.icons8.com/color/48/000000/physics.png" />Science</a>
                     </li>
                     <li>
-                        <a href="sports.php"><img src="https://img.icons8.com/color/48/000000/tennis.png" />Sports</a>
+                        <a href="../NewsAPI/sports.php"><img src="https://img.icons8.com/color/48/000000/tennis.png" />Sports</a>
                     </li>
                     <li>
-                        <a href="technology.php"><img src="https://img.icons8.com/color/48/000000/development-skill.png" />Technology</a>
+                        <a href="../NewsAPI/technology.php"><img src="https://img.icons8.com/color/48/000000/development-skill.png" />Technology</a>
                     </li>
                     <li>
-                        <a href="search.php"><img src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>Search</a>
+                        <a href="../NewsAPI/search.php"><img src="https://img.icons8.com/doodle/48/000000/search--v1.png"/>Search</a>
                     </li>
                     <li>
                         <a href="../Admin%20Panel/Articles.php?page=1"><img src="https://img.icons8.com/color/48/000000/google-blog-search.png"/>Articles</a>
@@ -214,21 +214,21 @@
         <section class="link1">
             <h2>categories</h2>
             <ul>
-                <li><a href="business.php">Business</a></li>
-                <li><a href="entertainment.php">Entertainment</a></li>
-                <li><a href="health.php">Health</a></li>
-                <li><a href="science.php">Science</a></li>
-                <li><a href="sports.php">Sports</a></li>
-                <li><a href="technology.php">Technology</a></li>
+                <li><a href="../NewsAPI/business.php">Business</a></li>
+                <li><a href="../NewsAPI/entertainment.php">Entertainment</a></li>
+                <li><a href="../NewsAPI/health.php">Health</a></li>
+                <li><a href="../NewsAPI/science.php">Science</a></li>
+                <li><a href="../NewsAPI/sports.php">Sports</a></li>
+                <li><a href="../NewsAPI/technology.php">Technology</a></li>
             </ul>
         </section>
         <section class="link2">
             <h2>quick links</h2>
             <ul>
-                <li><a href="aboutusnews.php">About Us</a></li>
-                <li><a href="CoronaNews.php">Covid Tracker</a></li>
+                <li><a href="../NewsAPI/aboutusnews.php">About Us</a></li>
+                <li><a href="../NewsAPI/CoronaNews.php">Covid Tracker</a></li>
                 <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
-                <li><a href="Landingpage.html">Landing Page</a></li>
+                <li><a href="../NewsAPI/Landingpage.php">Landing Page</a></li>
 
             </ul>
         </section>
