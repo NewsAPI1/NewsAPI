@@ -12,9 +12,9 @@
 		<?php
 if(isset($_POST["submit"])){
     $search=$_POST["search"];
-    // $result=urlencode($search);
+    $result=urlencode($search);
 		$url=file_get_contents
-		("https://app.zenserp.com/api/v2/search?apikey=5ac68670-2f08-11eb-ae26-d3a90d9feb80&q=$search&tbm=nws&device=desktop&gl=IN&hl=en&location=New%20Delhi,Delhi,India");
+		("https://app.zenserp.com/api/v2/search?apikey=5ac68670-2f08-11eb-ae26-d3a90d9feb80&q=$result&tbm=nws&device=desktop&gl=IN&hl=en&location=New%20Delhi,Delhi,India");
 		$newsArray=json_decode($url,true);		
 				foreach ($newsArray['news_results'] as $news)
 					{	
