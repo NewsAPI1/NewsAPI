@@ -90,6 +90,9 @@
         padding-left: 12px;
     }
 }
+/* .w3-container{
+    overflow: auto
+} */
 </style>
 <body class="w3-light-grey">
 <div id="container" id="google_translate_element">

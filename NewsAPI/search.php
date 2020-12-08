@@ -12,9 +12,9 @@
 		<?php
 if(isset($_POST["submit"])){
     $search=$_POST["search"];
-    $result=urlencode($search);
+    // $result=urlencode($search);
 		$url=file_get_contents
-		("https://app.zenserp.com/api/v2/search?apikey=5ac68670-2f08-11eb-ae26-d3a90d9feb80&q=$result&tbm=nws&device=desktop&gl=IN&hl=en&location=New%20Delhi,Delhi,India");
+		("https://app.zenserp.com/api/v2/search?apikey=5ac68670-2f08-11eb-ae26-d3a90d9feb80&q=$search&tbm=nws&device=desktop&gl=IN&hl=en&location=New%20Delhi,Delhi,India");
 		$newsArray=json_decode($url,true);		
 				foreach ($newsArray['news_results'] as $news)
 					{	
@@ -25,7 +25,7 @@ if(isset($_POST["submit"])){
                     <img alt="Image" src="<?php echo $news['thumbnail']?>">   
                     </div>
                     <div class="content">                        
-                        <a href="<?php echo substr($news['link'],0,20);?>" target="_blank"><p class="title"><?php echo $news['title']?></p></a>
+                        <a href="<?php echo $news['link'];?>" target="_blank"><p class="title"><?php echo $news['title']?></p></a>
                         
                         <p><?php echo $description=substr($news['description'],0,80 ); echo"$description.."?></p>
                         <small><?php echo $news['date_parsed']?></small>
