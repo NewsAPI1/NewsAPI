@@ -190,7 +190,7 @@
             <li><a href="sports.php">Sports</a></li>
             <li><a href="technology.php">Technology</a></li>
             <li><a href="search.php">Search</a></li>
-            <li><a href="CoronaNews.php">Coivd</a></li>
+            <li><a href="CoronaNews.php">Covid</a></li>
             <li><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
             <div class="sidebar">
                 <ul class="menu">
