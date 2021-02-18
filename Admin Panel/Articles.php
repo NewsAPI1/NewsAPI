@@ -123,7 +123,7 @@
             <li class="head"><a href="../NewsAPI/sports.php">Sports</a></li>
             <li class="head"><a href="../NewsAPI/technology.php">Technology</a></li>
             <li class="head"><a href="../NewsAPI/search.php">Search</a></li>
-            <li class="head"><a href="../NewsAPI/CoronaNews.php">Coivd</a></li>
+            <li class="head"><a href="../NewsAPI/CoronaNews.php">Covid</a></li>
             <li class="head"><a href="../Admin%20Panel/Articles.php?page=1">Articles</a></li>
             
             <div class="sidebar">
