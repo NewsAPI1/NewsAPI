@@ -51,7 +51,14 @@ if (isset($_POST['submit'])) {
             alert('Category Must Be Filled Out !');
             return false;
         }
+        var y=document.forms['categoryform']['description'].value;
+                if(y==""){
+                    alert('Description Must Be Filled Out !');
+                    return false;
+                    
+                }
     }
+    
 </script>
 
 </div>

@@ -25,9 +25,16 @@ include('include_Structure.php');
         <script>
             function validateform() {
                 var x = document.forms['categoryform']['category'].value;
+                var y=document.forms['categoryform']['description'].value;
+                if(y==""){
+                    alert('Description Must Be Filled Out !');
+                    return false;
+                    
+                }
                 if (x == "") {
                     alert('Category Must Be Filled Out !');
                     return false;
+
                 }
             }
         </script>

@@ -9,7 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="icon" href="website.svg" type="image/x-icon" media="none">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link href="header.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
@@ -78,7 +77,7 @@
     .chat-popup {
         outline: none;
         height: 5rem;
-        margin-bottom: 22rem;
+        margin-bottom: 18rem;
         margin-left: -3rem;
         width: 15rem;
         position: fixed;
@@ -178,7 +177,7 @@
         <ul class="menu1">
             <input type="checkbox" id="chk">
             <label for="chk" class="show-btn">
-                <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>
             </label>
             <label for="chk" class="hide-btn">
                 <i class="fa fa-times"></i>

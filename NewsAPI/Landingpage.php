@@ -159,10 +159,10 @@
                         <div class="col-md-4 text-center">
                             <div class="profile">
                                 <img src="siddharth.jpeg" class="user">
-                                <blockqoute>
+                                
                                     My experience of Inclick has been awesome.The surveys are interesting and vary in the content matter.It delivers news on the latest stories, sport, entertainment, business, technology.They are posting news without any ads on website and the best part
                                     is that we can save our favourite news.
-                                </blockqoute>
+                                
                                 <h3>Siddharth Rai</h3>
                             </div>
                         </div>
@@ -170,10 +170,10 @@
                         <div class="col-md-4 text-center">
                             <div class="profile">
                                 <img src="mansi.jpeg" class="user">
-                                <blockqoute>
+                                
                                     Inclick News is best news portal in India as it covers all exclusive current headlines, Latest news, breaking news on business, sports, health and lots of categories you can find there.You just have to select the category of that particular news and huraah!
                                     You can enjoy your news.The application also sends you notifications for sport updates and some important headlines also.
-                                </blockqoute>
+                                
                                 <h3>Mansi Verma</h3>
                             </div>
                         </div>
@@ -182,10 +182,10 @@
                         <div class="col-md-4 text-center">
                             <div class="profile">
                                 <img src="tanya.jpeg" class="user">
-                                <blockqoute>
+                                
                                     Hey guys.I stopped reading newspaper nowadays instead I am preferring to read it online on Inclick news.Firstly,I would like to mention that it has various categories such as Technology News,Headlines and much more.So it is very easy to go through and
                                     read the news without any hassle.
-                                </blockqoute>
+                                
                                 <h3>Tanya Goyal</h3>
                             </div>
                         </div>
@@ -229,4 +229,3 @@
         </div>
     </main>
     <?php 
-include('footer_structure.php')?>
